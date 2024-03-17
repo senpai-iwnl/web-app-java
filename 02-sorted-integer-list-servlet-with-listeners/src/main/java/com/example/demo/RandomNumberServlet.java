@@ -30,7 +30,7 @@ public class RandomNumberServlet extends HttpServlet {
         Collections.sort(numbers);
 
         context.setAttribute("numbers", numbers);
-        
+
         response.sendRedirect("index.jsp");
     }
 

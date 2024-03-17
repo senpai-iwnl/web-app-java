@@ -5,6 +5,9 @@
   <title>Liczby</title>
 </head>
 <body>
+<form action="RandomNumberServlet" method="get">
+  <input type="submit" value="Dodaj losową liczbę">
+</form>
 <h2>Lista liczb:</h2>
 <%-- Wyświetlenie listy liczb --%>
 <ul>
@@ -18,8 +21,5 @@
     }
   %>
 </ul>
-<form action="RandomNumberServlet" method="get">
-  <input type="submit" value="Dodaj losową liczbę">
-</form>
 </body>
 </html>
